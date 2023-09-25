@@ -1,0 +1,53 @@
+/* PlantGallery.css */
+
+.plant-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+  }
+  
+  .plant-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .plant-image {
+    max-width: 100%;
+    height: 150px;
+  }
+  
+  .plant-details {
+    padding: 10px;
+  }
+  
+  .plant-name {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .plant-location {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Add responsive styles as needed */
+  @media (max-width: 768px) {
+    .plant-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .plant-card {
+      width: 100%;
+    }
+  }
+  

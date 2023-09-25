@@ -1,0 +1,110 @@
+body{
+    background:url("./plantsbg.jpg"),linear-gradient(45deg,
+    rgba(236, 236, 236, 0.37),
+    rgba(236, 236, 236, 0.37));
+    background-position: center;
+    background-size: cover;
+}
+
+.auth-heading
+{
+    font-size: xx-large;
+    color: black;
+}
+
+/* Login.css */
+
+/* Apply styles to the video background container */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Place it behind other content */
+  }
+  
+  /* Apply styles to the video itself */
+  .video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Apply styles to the auth container */
+  .auth-container {
+    position: relative;
+    z-index: 1; /* Place it above the video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent; /* Fully transparent background for the auth container */
+    backdrop-filter: blur(10px); /* Add a blur effect */
+  }
+  
+  /* Apply styles to the auth wrapper */
+  .auth-wrapper {
+    background-color: transparent; /* Fully transparent background for the auth wrapper */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: none; /* Remove the box shadow */
+    text-align: center;
+  }
+  
+  /* Apply styles to the auth form */
+  .auth-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: transparent; /* Fully transparent background for the auth form */
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  /* Apply styles to the auth heading */
+  .auth-heading {
+    font-size: xx-large;
+    color: transparent; /* Make the auth heading text transparent */
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the auth field input */
+  .auth-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent; /* Make the input borders transparent */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent; /* Fully transparent background for the inputs */
+  }
+  
+  /* Apply styles to the auth button */
+  .auth-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent; /* Fully transparent background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-btn:hover {
+    background-color: transparent; /* Fully transparent background on hover */
+  }
+  
+  /* Apply styles to the auth links */
+  .auth-links {
+    display: block;
+    margin-top: 10px;
+    color: #007bff; /* Change the link color to your desired color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-links:hover {
+    text-decoration: underline;
+  }
